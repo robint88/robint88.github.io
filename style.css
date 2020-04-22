@@ -148,4 +148,10 @@ ul {
     #contact{
         padding: 20px;
     }
+    
+    #navbar li{
+        font-size: 20px;
+        padding: 9px;
+        margin: 10px;
+    }
   }
