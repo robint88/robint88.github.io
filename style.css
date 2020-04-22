@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 300;
+}
+h2 {
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+#navbar {
+    background: white;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 0;
+}
+a{
+    text-decoration: none;
+    color: pink;
+}
+a:hover{
+    color: lightblue;
+}
+#navbar li{
+    display: inline;
+    font-size: 24px;
+    padding: 9px;
+    font-weight: 400;
+    margin: 20px;
+}
+
+main {
+    margin-top: 50px;
+}
+section{
+    padding: 2% 2%;
+    font-size: 25px;
+    color: white;
+    line-height: 1em;
+    height: auto;
+}
+
+ul {
+    font-size: .75em;
+}
+li{
+    margin-left: 50px;
+}
+
+.highlights{
+    color: pink;
+}
+#welcome{
+    margin-top: 0;
+    background: teal;
+    padding: 10%;
+}
+
+#projects{
+    background: white;
+    color: teal;
+}
+
+.title{
+    color: pink;
+}
+
+.copy{
+    margin-top: 15px;
+}
+.copy a:hover {
+    text-decoration: underline;
+}
+
+.float-l {
+    margin: 2% 0;
+    display: inline-block;
+    width: 45%;
+    height: auto;
+}
+
+img{
+    
+    width: 100%;
+    /* min-height: 300px; */ MEDIA QUERIES TO FIX
+    border: 1px solid pink;
+    border-radius: 5px;
+}
+
+.float-r {
+    display: inline-block;
+    margin: 2% 0;
+    width: 45%;
+    float: right;
+    height: auto;
+}
+
+ul {
+    margin: 2% 0;
+}
+
+.float-container{
+    overflow: auto;
+}
+
+#contact{
+    background: teal;
+    padding-top: 2%;
+}
+
+#contact-info {
+    text-align: center;
+    padding: 5%;
+}
+#contact-info a:hover {
+    color:lightblue;
+}
+
+@media only screen and (max-width: 992px) {
+    section{
+        margin-top: 20px;
+    }
+
+    .float-l{
+        display: block;
+        width: 100%;
+    }
+    .float-r{
+        display: block;
+        width: 100%;
+    }
+
+    .float-container{
+        /* overflow: auto; */
+    }
+    #contact{
+        padding: 20px;
+    }
+  }
